@@ -17,10 +17,10 @@ jobs:
       - name: Installer Python
         uses: actions/setup-python@v7
         with:
-          python-version: "3.12"   # (3)
+        python-version: "3.12"  # (3)
 
       - name: Installer pytest
         run: pip install pytest
 
       - name: Lancer les tests
-        run: run: pytest -v.           # (4)
+         run: pytest -v
