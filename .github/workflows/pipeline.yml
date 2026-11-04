@@ -24,5 +24,3 @@ jobs:
 
       - name: Lancer les tests
         run: pytest -v
-
-![CI/CD](https://github.com/PapeSane-DT/gestion-etudiants-cicd/actions/workflows/pipeline.yml/badge.svg)
